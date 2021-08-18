@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <canvas id="snake" width="608PX" height="608PX"></canvas>
+    <style>
+        canvas{
+            display: block;
+            margin: 0 auto;
+            border: 1PX solid red;
+        }
+        button{
+            display: none;
+            border-radius: 3PX;
+            border: none;
+            width: 100PX;
+            height: 40PX;
+            position: absolute;
+            top: 50Vh;
+            left: 47vw;
+        }
+    </style>
+</head>
+<body>
+    <button id="button" onclick="window.location.reload()">重玩</button>
+    <script src="snake.js"></script>
+</body>
+</html>
